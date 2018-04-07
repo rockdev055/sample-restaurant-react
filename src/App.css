@@ -68,3 +68,37 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+#arrow {
+  transition: 0.5s ease;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.menu-nav li {
+  width: 20%;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+.menu-nav li:hover {
+  border-bottom: 2px solid black;
+  font-weight: 700;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-nav a:hover {
+}
+
+#list a {
+  text-decoration: none;
+  color: black;
+}
