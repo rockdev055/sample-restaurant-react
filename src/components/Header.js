@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -8,10 +9,14 @@ const Header = () => {
           <h1 id="logo">Good Eats</h1>
           <ul id="list">
             <li>
-              <a>HOURS AND LOCATION</a>
+              <ScrollLink href="" to="hours-location" spy={true} smooth={true} duration={1000}>
+                HOURS AND LOCATION
+              </ScrollLink>
             </li>
             <li>
-              <a>MENU</a>
+              <ScrollLink href="" to="menu" spy={true} smooth={true} duration={1000}>
+                MENU
+              </ScrollLink>
             </li>
             <li>
               <a>CONTACT</a>
