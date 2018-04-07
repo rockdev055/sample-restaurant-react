@@ -14,7 +14,6 @@ const Intro = () => {
             to="hours-location"
             spy={true}
             smooth={true}
-            offset={50}
             duration={1000}
             style={{ color: 'black' }}
             id="arrow"
