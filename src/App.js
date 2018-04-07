@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Intro from './components/Intro'
 import HoursLocation from './components/HoursLocation'
 import Menu from './components/Menu'
+import ContactForm from './components/ContactForm'
 import { Link as ScrollLink, Element } from 'react-scroll'
 import './App.css'
 import FaArrow from 'react-icons/lib/fa/angle-double-down'
@@ -16,6 +17,7 @@ class App extends Component {
         <Intro />
         <HoursLocation />
         <Menu />
+        <ContactForm />
         <p>
           <ScrollLink style={{ color: 'black' }} to="top" href="" spy={true} smooth={true} offset={50} duration={1000}>
             Back to top
