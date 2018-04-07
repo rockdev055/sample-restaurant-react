@@ -3,6 +3,9 @@ import { Link, BrowserRouter as Router, Route } from 'react-router-dom'
 import { Element } from 'react-scroll'
 import Appetizers from './Appetizers'
 import SoupsSalads from './SoupsSalads'
+import Entrees from './Entrees'
+import Desserts from './Desserts'
+import Beverages from './Beverages'
 
 const Menu = () => (
   <section>
@@ -28,7 +31,10 @@ const Menu = () => (
           </li>
         </ul>
         <Route exact path="/" component={Appetizers} />
-        <Route exact path="/soups-salads" component={SoupsSalads} />
+        <Route path="/soups-salads" component={SoupsSalads} />
+        <Route path="/entrees" component={Entrees} />
+        <Route path="/desserts" component={Desserts} />
+        <Route path="/beverages" component={Beverages} />
       </div>
     </Router>
   </section>
