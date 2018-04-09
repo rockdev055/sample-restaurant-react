@@ -19,7 +19,9 @@ const Header = () => {
               </ScrollLink>
             </li>
             <li>
-              <a>CONTACT</a>
+              <ScrollLink href="" to="contact" spy={true} smooth={true} duration={1000}>
+                <a>CONTACT</a>
+              </ScrollLink>
             </li>
             <li>
               <a>BUZZ</a>
