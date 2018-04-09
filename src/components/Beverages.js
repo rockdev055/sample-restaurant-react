@@ -3,7 +3,7 @@ import MenuItemCard from './MenuItemCard'
 
 const Beverages = () => (
   <div style={{ textAlign: 'left' }}>
-    <p style={{ textAlign: 'left', fontSize: '20px' }}>your main dish</p>
+    <p style={{ textAlign: 'left', fontSize: '20px' }}>cheers!</p>
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       <MenuItemCard />
       <MenuItemCard />
