@@ -80,8 +80,8 @@ class HoursLocation extends Component {
         >
           <h2>Make a Reservation</h2>
           <form>
-            <input style={{ width: '100%', height: '50px', marginBottom: '10px' }} type="date" />
-            <input style={{ width: '100%', height: '50px', marginBottom: '10px' }} type="time" />
+            <input style={inputStyle} type="date" />
+            <input style={inputStyle} type="time" />
             <input
               style={{ width: '100%', height: '50px', marginBottom: '10px' }}
               type="number"
@@ -96,3 +96,5 @@ class HoursLocation extends Component {
 }
 
 export default HoursLocation
+
+const inputStyle = { width: '100%', height: '50px', marginBottom: '10px' }
