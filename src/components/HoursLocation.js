@@ -85,7 +85,7 @@ class HoursLocation extends Component {
             <input
               style={{ width: '100%', height: '50px', marginBottom: '10px' }}
               type="number"
-              placeholder="Num of people"
+              placeholder="Number of people"
             />
             <button onClick={this.closeModal}>reserve table</button>
           </form>
