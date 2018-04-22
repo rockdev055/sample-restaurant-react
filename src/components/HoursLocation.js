@@ -87,7 +87,7 @@ class HoursLocation extends Component {
               type="number"
               placeholder="Number of people"
             />
-            <button onClick={this.closeModal}>reserve table</button>
+            <button onClick={this.closeModal}>reserve a table</button>
           </form>
         </Modal>
       </section>
