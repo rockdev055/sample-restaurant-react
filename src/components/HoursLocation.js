@@ -41,6 +41,7 @@ class HoursLocation extends Component {
               than 6. Please contact manager@goodeats.party
             </p>
             <p>For general inquiries contact us at info@goodeats.party</p>
+            <Element name="reservations" className="element" />
             <button
               onClick={this.openModal}
               style={{

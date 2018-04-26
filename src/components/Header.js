@@ -24,13 +24,9 @@ const Header = () => {
               </ScrollLink>
             </li>
             <li>
-              <a>BUZZ</a>
-            </li>
-            <li>
-              <a>GIFTCARDS</a>
-            </li>
-            <li>
-              <a>RESERVATIONS</a>
+              <ScrollLink href="" to="reservations" spy={true} smooth={true} duration={1000}>
+                <a>RESERVATIONS</a>
+              </ScrollLink>
             </li>
           </ul>
         </nav>
