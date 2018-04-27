@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className="App-header">
       <div className="Nav-wrapper">
+        <h1 id="logo">Good Eats</h1>
         <nav>
-          <h1 id="logo">Good Eats</h1>
           <ul id="list">
             <li>
               <ScrollLink href="" to="hours-location" spy={true} smooth={true} duration={1000}>
